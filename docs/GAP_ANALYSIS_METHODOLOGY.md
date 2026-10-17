@@ -1,4 +1,4 @@
-# 📐 Gap Analysis Methodology
+cv# 📐 Gap Analysis Methodology
 
 ## 1. Overview
 This document outlines the analytical methodology used in the **ITSM SLA & Gap Analyzer** pipeline. The framework evaluates the relationship and divergence between objective **Technical Audit Compliance** (procedural adherence, SLA thresholds, workflow completeness) and subjective **End-User Perception** (CSAT surveys, user satisfaction scores).
