@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files (Python Runtime)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtualenvs
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+
+# Data Files & Sensitive Exports (Privacy & Compliance)
+data/raw/*.csv
+data/processed/*.csv
+*.xlsx
+*.xls
+*.json
+!config/config.json
+!data/raw/sample_servicenow_incidents.csv
+
+# Output Artifacts (Temporary Reports & Images)
+output/charts/*.png
+output/reports/*.csv
+output/reports/*.json
+!output/charts/.gitkeep
+!output/reports/.gitkeep
+!data/processed/.gitkeep
+
+# IDEs & Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific Files
+.DS_Store
+Thumbs.db

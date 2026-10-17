@@ -1,0 +1,22 @@
+{
+  "sla_targets": {
+    "mtta_target_hours": 0.5,
+    "mttr_target_hours": 8.0,
+    "target_audit_compliance_pct": 85.0,
+    "target_user_perception_pct": 80.0
+  },
+  "column_mapping": {
+    "ticket_number": "number",
+    "category": "category",
+    "created_at": "sys_created_on",
+    "acknowledged_at": "sys_acknowledged_on",
+    "resolved_at": "resolved_at",
+    "audit_score": "technical_audit_score",
+    "csat_score": "user_satisfaction"
+  },
+  "output_settings": {
+    "charts_dir": "output/charts/",
+    "reports_dir": "output/reports/",
+    "dashboard_filename": "itsm_analysis_dashboard.png"
+  }
+}
